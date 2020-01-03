@@ -1,3 +1,5 @@
+//javascript:(function(){var i=0, s, ss = ['https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js', 'https://cdn.jsdelivr.net/gh/OnesAndZer0s/Gravity/index.js'];function addFunc(){s = document.createElement('script'); s.src = ss[i]; document.body.appendChild(s); s.onload = function(){i++; if (i<ss.length){addFunc()}}}addFunc() })()
+
 let nodes = [];
 /*var BORDER_STYLE = "1px solid #bbb"; */
 function StickyNodes() {
